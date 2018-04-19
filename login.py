@@ -30,7 +30,7 @@ def login():
     
     username=s1.get()
     password=s2.get()
-    if (username=="abc") and (password=="abc"):
+    if (username=="16csu267" or username=="16CSU267") and (password=="abc"):
         s3.set("WELCOME BACK")
         os.system('python project.py')
     else:
