@@ -37,7 +37,7 @@ def login():
         s1.set("")
         s2.set("")
         s3.set("SORRY TRY AGAIN")
-        sys.exit()
+        
     
 login=Button(w,text="LOGIN",font="impact 20 ",bd=15,fg='#522E75',command=login,width=30).grid(row=6,column=3,sticky="s")
 w.mainloop()
